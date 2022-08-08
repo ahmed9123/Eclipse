@@ -1,0 +1,29 @@
+package excercisePackage;
+
+public class Results {
+    public double chemistry;
+    public double physics;
+    public double biology;
+    public double total;
+    public double percentage;
+    
+    
+    
+    
+    
+    public double Marks(double chemistry,double physics, double biology)
+    {
+    	
+    	 
+    	 
+    	 System.out.println("Pupil got " + chemistry + " marks for chemistry " + biology + " marks for biology " + physics + "  marks for physics");
+    	 System.out.println("Pupil got " + total + " as their total marks");
+    	return total = chemistry + physics + biology ;
+    }
+    
+    public double Percentage()
+    {
+    	return percentage = (chemistry + physics + biology)/3;
+    }
+    
+}

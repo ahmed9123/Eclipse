@@ -1,0 +1,21 @@
+package excercisePackage;
+
+public class Results {
+    public int chemistry;
+    public int physics;
+    public int biology;
+    public int total;
+    
+    
+    
+    
+    
+    public void Marks(int chemistry,int physics, int biology)
+    {
+    	
+    	 total = chemistry + physics + biology ;
+    	 
+    	 System.out.print("Pupil got " + chemistry + " marks for chemistry " + biology + " marks for biology " + physics + " marks for physics");
+    	 System.out.println("Pupil got " + total + " as their total marks");
+    }
+}

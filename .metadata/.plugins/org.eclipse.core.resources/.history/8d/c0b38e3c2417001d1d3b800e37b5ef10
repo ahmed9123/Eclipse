@@ -1,0 +1,18 @@
+package excercisePackage;
+
+public class Main {
+	public static void main(String[] args) {
+		
+		Results pupil1 = new Results();
+		
+	//	pupil1.Marks(20, 30, 40);
+		
+		// pupil1.Percentage();
+		 
+		 System.out.println("Pupil got " + pupil1.Marks(20, 30, 40)  + " as their total marks");
+		
+		System.out.println(pupil1.Percentage());
+  
+	}
+
+}
